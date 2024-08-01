@@ -161,6 +161,7 @@ return [
          */
         Yajra\DataTables\DataTablesServiceProvider::class,
         Milon\Barcode\BarcodeServiceProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class,
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
@@ -214,6 +215,7 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
         'DNS1D' => Milon\Barcode\Facades\DNS1DFacade::class,
         'DNS2D' => Milon\Barcode\Facades\DNS2DFacade::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
     ])->toArray(),
 
 ];
