@@ -97,7 +97,7 @@
                 closeOnConfirm:!1},
             function(){
                 swal("Deleted !!","Hey, your imaginary file has been deleted !!","success")})
-            },
+        },
     </script>
 </body>
 </html>

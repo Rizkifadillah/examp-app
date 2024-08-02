@@ -17,7 +17,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [AuthController::class, 'index']);
-Route::get('/user', [HomeController::class, 'index']);
+Route::get('/home', [HomeController::class, 'index']);
 
 // Route::get('/', function () {
 //     return view('welcome');
